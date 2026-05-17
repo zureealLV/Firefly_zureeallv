@@ -16,18 +16,10 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://zureeallv.com",
 
 	// 站点描述
-	description:
-		"啦啦啦啦啦，好想玩OSU！",
+	description: "啦啦啦啦啦，好想玩OSU！",
 
 	// 站点关键词
-	keywords: [
-		"osu",
-		"osu！",
-		"zureealLV",
-		"个人博客",
-		"技术博客",
-		"静态博客",
-	],
+	keywords: ["osu", "osu！", "zureealLV", "个人博客", "技术博客", "静态博客"],
 
 	// 主题色
 	themeColor: {
