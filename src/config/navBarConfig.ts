@@ -66,15 +66,15 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/zureealLV",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "osu!",
+				url: "https://osu.ppy.sh/users/37641269",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "simple-icons:osu",
 			},
 			{
 				name: "QQ交流群",
