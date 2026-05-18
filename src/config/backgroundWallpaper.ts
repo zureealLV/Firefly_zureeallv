@@ -38,25 +38,23 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 * ],
 	 */
 	src: {
-		// 桌面背景图片（支持单张或多张随机）
-		// desktop: "assets/images/DesktopWallpaper/d1.avif",
+		// 桌面背景图片
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/pcbg1.jpg",
+			"assets/images/DesktopWallpaper/pcbg2.jpg",
+			"assets/images/DesktopWallpaper/pcbg3.png",
+			"assets/images/DesktopWallpaper/pcbg4.png",
+			"assets/images/DesktopWallpaper/pcbg5.jpg",
+			"assets/images/DesktopWallpaper/pcbg6.png",
+			"assets/images/DesktopWallpaper/pcbg7.jpg",
+			"assets/images/DesktopWallpaper/pcbg8.jpg",
 		],
-		// 移动背景图片（支持单张或多张随机）
-		// mobile: "assets/images/MobileWallpaper/m1.avif",
+		// 移动背景图片
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"assets/images/MobileWallpaper/mbg1.png",
+			"assets/images/MobileWallpaper/mbg2.png",
+			"assets/images/MobileWallpaper/mbg3.jpg",
+			"assets/images/MobileWallpaper/mbg4.jpg",
 		],
 	},
 	// 横幅壁纸和全屏壁纸共享配置

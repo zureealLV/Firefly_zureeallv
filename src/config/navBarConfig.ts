@@ -39,19 +39,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
 			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
-		],
-	});
 
-	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "/content/",
-		icon: "material-symbols:info",
-		children: [
-			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
-			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
-
-			// 关于页面
+			// 关于我
 			LinkPreset.About,
 		],
 	});
