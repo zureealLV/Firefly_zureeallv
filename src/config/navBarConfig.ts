@@ -37,11 +37,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 根据配置决定是否添加相册，在siteConfig关闭pages.gallery时导航栏不显示相册
 			...(siteConfig.pages.gallery ? [LinkPreset.Gallery] : []),
 
-			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
-			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
-
-			// 关于我
-			LinkPreset.About,
+			// 根据配置决定是否添加番组计划
+			LinkPreset.Bangumi,
 		],
 	});
 
@@ -51,7 +48,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "/links/",
 		icon: "material-symbols:link",
 
-		// 子菜单
 		children: [
 			{
 				name: "GitHub",
@@ -73,11 +69,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},
 			{
 				name: "QQ交流群",
-				url: "https://qm.qq.com/cgi-bin/qm/qr?k=0moImT0vhrvW0XuZ53h3J0_ZHs0OSWF-&jump_from=webapi&authKey=+R7Hs8l48VVgIJgmdObtVCc8i5pXpTLuEVH/qKTfaRKrqiA7BPQhEpl1eFBMyQe1",
+				url: "https://qm.qq.com/q/ZGsFa8qX2G",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
 		],
+	});
+
+	// 𝓞𝓢𝓤！𝓣𝓥 关于页面
+	links.push({
+		name: "𝓞𝓢𝓤！𝓣𝓥",
+		url: "/about/",
+		icon: "material-symbols:info",
 	});
 
 	// 仅返回链接，其它导航搜索相关配置在模块顶层常量中独立导出
