@@ -1,5 +1,5 @@
 ---
-title: "**Part.1:**"
+title: "杂记"
 published: 2025-05-08
 description: "**Part.1:**"
 tags: [随笔]
